@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+    
+}
+.container {
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 100%;
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 26px 3px;
+    
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.register-2 {
+    /* border: 2px solid red; */
+    background-color: chocolate;
+    border-radius: 30px;
+    height: 300px;
+    width: 300px;
+    margin: 31px 2px;
+}
+
+#name {
+    margin: 10px 51px;
+    padding: 5px 16px;
+
+}
+
+#E-mail {
+    margin: 12px 51px;
+    padding: 5px 16px;
+
+}
+
+#subject {
+    margin: 12px 51px;
+    padding: 5px 16px;
+
+}
+
+#msg {
+    margin: 12px 51px;
+    padding: 5px 16px;
+
+}
+
+#reg-1 {
+    margin: 15px 84px;
+    padding: 10px 23px;
+    background-color: rgb(37, 106, 255);
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+#reg-1:hover {
+    color: white;
+    font-weight: bolder;
+}
